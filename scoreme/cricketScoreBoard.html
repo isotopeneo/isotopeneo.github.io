@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="weatherShowcaseApp">
+<head>
+    <meta charset="utf-8"/>
+    <title>Cricket Score Board</title>
+    <link rel="stylesheet" href="./css/scoreBoardStyles.css" />
+<body >
+<div class="weatherWrapper" ng-controller="weatherWidgetController">
+    <div class="weather_container weather-widget">
+        <div class="location">
+            <div style="float:left;" class="teamA">
+            <div>Score</div>
+            <div class="temperature">
+                <span class="number">{{currentTeamScore}}</span>
+                <span class="number">/</span>
+                <span class="number">{{totalWickets}}</span>
+                </span>
+            </div>
+            </div>
+            <div style="float:right" class="teamA">
+                <div>Overs</div>
+                <div class="temperature">
+                    <span class="number">{{currentTeamPlayedOvers}}</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weather_container weather-widget overDetails">
+        <div><span>This Over</span></div>
+            <div id="header">
+                <div class="nav">
+                  <span class="versions">
+                      <a ng-repeat="ball in teamEachOver">{{ball.ballStatus}}</a>
+                  </span>
+                </div>
+                <div class="nav">
+                    <span>Balls : </span>
+                    <span>{{ballCount}}</span>
+                </div>
+                <div class="nav">
+                    <span>Runs : </span>
+                    <span>{{currentOverScore}}</span>
+                </div>
+            </div>
+    </div>
+    <div class="weather_container weather-widget controlsDetails">
+                <div class="foo blue" data-ng-click="updateScore('WICKET')">W</div> 
+                <div class="foo purple" data-ng-click="updateScore(1)">1</div>
+                <div class="foo purple" data-ng-click="updateScore(2)">2</div>  
+                <div class="foo purple" data-ng-click="updateScore(3)">3</div> 
+                <div class="foo wine" data-ng-click="updateScore(4)">4</div> 
+                <div class="foo wine" data-ng-click="updateScore(6)">6</div> 
+                <div class="foo blue" data-ng-click="updateScore('BYE')">LB</div> 
+                <div class="foo blue" data-ng-click="updateScore('WB')">WD</div> 
+                <div class="foo blue" data-ng-click="updateScore('NB')">NB</div> 
+    </div>
+    <div class="weather_container weather-widget overDetails">
+        <div><span>Overs Played</span></div>
+            <div id="header" ng-repeat="eachOver in totalOversDetails">
+                <div class="nav">
+                  <span>
+                      <span>over</span>
+                      <a>{{$index+1}}</a>
+                  </span>
+                </div>
+                <div class="nav" >
+                  <span class="versions">
+                      <a ng-repeat="eachBall in eachOver" ng-if="!eachBall.isScoreObj">{{eachBall.ballStatus}}</a>
+                  </span>
+                </div>
+                <div class="nav" ng-repeat="eachBall in eachOver" ng-if="eachBall.isScoreObj">
+                    <span>This Over Runs : </span>
+                    <span>{{eachBall.lastOverScore}}</span>
+                </div>
+            </div>
+    </div>
+</div>
+    
+<!--    <script src="js/angular.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.24/angular.js">     </script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="./js/scoreBoard.js"></script>
+    <script src="./js/angular.min.js"></script>
+</body>
+</html>

@@ -1,4 +1,25 @@
-[{
+[
+	{
+	"methodeType": "LIVEBLOG",
+	"title": "Very new entry",
+	"creator": "Scott Allen",
+	"description": "\u003cdiv id\u003d\"attachment_2757\" class\u003d\"wp-caption aligncenter\"\u003e\u003cimg class\u003d\"size-full wp-image-2757\" src\u003d\"http://www.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2016-06-10/AP/Muhammad_Ali_Memorial_Service_-02f05.jpg\" alt\u003d\"\" width\u003d\"960\" /\u003e\u003cp class\u003d\"wp-caption-text\"\u003eImam Zaid Shakir at Muhammad Ali\u0026#8217;s memorial service on Friday. (AP Photo/David Goldman)\u003c/p\u003e\u003c/div\u003e\n\u003cp\u003eFollowing Bill Clinton\u0026#8217;s eulogy at Muhammad Ali\u0026#8217;s memorial service in Louisville on Friday, Imam Zaid Shakir askedÂ those in attendance to rise, observe a moment of silence and reflect on what the champ meant to them as the Ali family exited the KFC Yum! Center.\u003c/p\u003e\n\u003cp\u003eShakir then \u003ca href\u003d\"http://www.newislamicdirections.com/nid/notes/a_poetic_reflection_onthe_life_of_muhammad_ali\"\u003erecited two poems he wrote about Ali\u003c/a\u003eÂ and offered a closing prayer.\u003c/p\u003e\n\u003cp\u003e\u0026#8220;His body is down, but his spirit is up,\u0026#8221; Shakir said, \u0026#8220;and it will stay up as long as we keep it up.\u0026#8221;\u003c/p\u003e\n",
+	"mobileHeadline": "Zaid Shakir ends Muhammad Ali\u0027s service with two poems and a prayer",
+	"webHeadline": "Zaid Shakir ends Muhammad Ali\u0027s service with two poems and a prayer",
+	"buyThis": false,
+	"customFields": {
+		"permalink": true,
+		"wordpress_id": 2755
+	},
+	"created": 1465583345,
+	"isEditorsPick": false,
+	"onGrid": true,
+	"priority": 0,
+	"id": "eeb9c6b8-b512-4e50-a1be-ba3e2f6e31e8",
+	"className": "MethodeContent",
+	"addedTimestamp": 1465597726178,
+	"gridId": "e6164f6f-1bfb-4547-adad-4751b1298fa5"
+},{
 	"methodeType": "LIVEBLOG",
 	"title": "This is an entirely new entry and just one single entry",
 	"creator": "Scott Allen",

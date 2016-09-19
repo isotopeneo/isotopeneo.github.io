@@ -22,39 +22,6 @@
         "transformed_content": {
           "slug": "final-steelers-38-redskins-16"
         }
-      },
-      {
-        "_id": "57d75e201d834e0fad172fec",
-        "cms_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=166",
-        "cms_parent_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=13",
-        "cms_title": "DeAngelo Williams pushes Steelers to 38-16 lead",
-        "cms_modified": "2016-09-13T02:01:16.000Z",
-        "cms_date": "2016-09-13T02:01:16.000Z",
-        "transformed_content": {
-          "slug": "deangelo-williams-pushes-steelers-to-38-16-lead"
-        }
-      },
-      {
-        "_id": "57d75ce31d834e0fad172feb",
-        "cms_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=164",
-        "cms_parent_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=13",
-        "cms_title": "Redskins down to final timeout",
-        "cms_modified": "2016-09-13T01:56:23.000Z",
-        "cms_date": "2016-09-13T01:56:23.000Z",
-        "transformed_content": {
-          "slug": "redskins-down-to-final-timeout"
-        }
-      },
-      {
-        "_id": "57d759c01d834e0fad172fea",
-        "cms_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=160",
-        "cms_parent_guid": "https://primetime.washpost.arcpublishing.com/sports/?p=13",
-        "cms_title": "Steelers extend lead to 31-16",
-        "cms_modified": "2016-09-13T01:43:07.000Z",
-        "cms_date": "2016-09-13T01:43:00.000Z",
-        "transformed_content": {
-          "slug": "steelers-extend-lead-to-31-15"
-        }
       }
     ]
   }
